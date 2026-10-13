@@ -7,4 +7,12 @@ wheels/
 *.egg-info
 
 # Virtual environments
-.venv
+.venv/
+
+# Local configuration, operational data and generated exports
+.env
+data/*.duckdb
+data/*.duckdb.wal
+exports/*
+!data/.gitkeep
+!exports/.gitkeep

@@ -1,5 +1,4 @@
-def main():
-    print("Hello from fast-analysis!")
+from fast_analysis.cli import main
 
 
 if __name__ == "__main__":
